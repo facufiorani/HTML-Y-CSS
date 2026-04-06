@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, Datalist, Options</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="formulario">
+        <h1>Formulario De Contacto</h1>
+        <!--INPUT NORMAL CON LABELS-->
+        <fieldset> 
+            <legend>INFORMACION PERSONAL</legend>   
+            <div> 
+                <label for="Nombre"> Nombre Completo </label>
+                <input type="name" placeholder="Facundo Fiorani" id="Nombre"> 
+            </div>
+            <div> 
+                <label> Email <input type="name "placeholder= "ejemplo@gmail.com"></label>
+            </div>
+        </fieldset>
+
+        <!-- SELECT AND OPTION -->
+        <fieldset> 
+            <legend> INFORMACION DE CONTACTO </legend>   
+            <div>
+                <label> Tipo De Usuario 
+                    <select name="type-of-user">
+                        <option value="user1"> Empresa </option>
+                        <option value="user2"> Cliente </option>
+                        <option value="user3"> Usuario </option>
+                    </select>
+                </label>
+            </div>
+            <!--DATALIST AND OPTION-->
+            <div>
+                <label> Tipo De Usuario 
+                    <input list="referente" name="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option value="Empresa"> Una empresa </option>
+                        <option value="Cliente"> Una persona cualquiera </option>
+                        <option value="Usuario"> Un Usuario </option>
+                    </select>
+                </label>
+            </div>
+
+            <!-- TEXTAREA-->
+            <div> 
+                <label for="Mensaje"> Mensaje </label>
+                <textarea rows="5" placeholder="Ingrese un mensaje..." id="Mensaje"></textarea>
+            </div>
+        </fieldset>
+            
+    </form>
+</body>
+</html>

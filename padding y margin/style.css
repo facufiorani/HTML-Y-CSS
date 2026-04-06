@@ -1,0 +1,20 @@
+.formulario {
+    background-color: grey;
+    padding: 10px;
+    width: 650px;
+    margin: auto
+}
+.input_form {
+    padding: 5px;
+    color: white;
+    background-color: black; 
+}
+.input_enviar{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-size:15px ;
+    font-style: italic;
+    font-family: Propio;
+    font-weight: bold;
+}

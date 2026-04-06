@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dialog con backdrop</title>
+
+    <style>
+    dialog {
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    /* fondo detrás del dialog */
+    dialog::backdrop {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    </style>
+
+</head>
+<body>
+
+    <dialog open>
+        <form method="dialog">
+            <h3>Formulario</h3>
+
+            <label>Nombre:</label>
+            <br>
+            <input type="text">
+            <br><br>
+
+            <button>Cerrar</button>
+        </form>
+    </dialog>
+</body>
+</html>

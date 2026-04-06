@@ -1,0 +1,85 @@
+body {
+    background: #b1ccc4;
+    margin:auto;
+    color: #e1e6d3;
+}
+.presentacion{
+    box-sizing: border-box;
+    background: #4e5861;
+    text-align: center;
+    width: 600px;
+    height: 700px;
+    margin:auto;
+    margin-top: 50px;
+    margin:40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+    display: inline-block;
+}
+.presentacion-2{
+    box-sizing: border-box;
+    background: #2f475c;
+    text-align: center;
+    width: 600px;
+    height: 700px;
+    margin:auto;
+    margin-top: 100px;
+    margin:40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+    display: inline-block;
+}
+.presentacion-3{
+    box-sizing: border-box;
+    background: #54a787;
+    text-align: center;
+    width: 600px;
+    height: 700px;
+    margin:auto;
+    margin-top: 100px;
+    margin:40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+    display: inline-block;
+}
+.titulo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e1e6d3;
+    padding: 30px; 
+    border-bottom: 2px solid #e1e6d3; 
+    font-size: 45px;
+    padding-top:30px;
+    margin:2px;
+    font-style: italic;
+    text-shadow: 0 0 15px #000f
+}
+.subtitulo {
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: 0 0 15px #000f;
+}
+
+.descripcion {
+    text-align: left;
+    width: 130px;
+    margin-left:50px;
+    font-size:25px;
+    border-bottom: 2px solid #fff5d6
+}
+.informacion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  20px;
+    padding: 30px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+    border: 2px solid #fff5d6;
+    margin: 40px;
+    margin-top: 0px;
+    border-radius: 10px
+}
+.imagen {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 45px 5px #fff;
+    margin-top: 40px
+}

@@ -1,0 +1,15 @@
+.box{
+    width:100px;
+    height:100px;
+    background:blue;
+    margin:20px
+}
+.box-default {
+    box-sizing: content-box;
+    border: 10px solid black
+}
+
+.box-new{
+    box-sizing: border-box;
+    border: 10px solid black
+}
